@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "react-front-end",
+  "main": "index.js",
+  "author": "Md. Jamilur Rahman",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "develop": "parcel watch index.js --out-dir ../static/js",
+    "build": "parcel build index.js --out-dir ../static/js"
+  }
+}

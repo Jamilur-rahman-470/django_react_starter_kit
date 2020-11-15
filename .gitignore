@@ -1,0 +1,4 @@
+front/node_modules
+front/yarn.lock
+django_react_starter_kit/settings.py
+db.sqlite3
